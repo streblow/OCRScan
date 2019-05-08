@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OCRScan</string>
+    <string name="open_file_dialog">Open file</string>
+    <string name="btn_camera">take photo</string>
+</resources>
