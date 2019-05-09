@@ -39,10 +39,10 @@ public class OpenFileDialog {
         public void onChosenDir(String chosenDir);
     }
 
-    public OpenFileDialog(Context context, OpenFileDialogListener OpenFileDialogListener)
+    public OpenFileDialog(Context context, OpenFileDialogListener openFileDialogListener)
     {
         m_context = context;
-        m_OpenFileDialogListener = OpenFileDialogListener;
+        m_OpenFileDialogListener = openFileDialogListener;
         m_sdcardDirectory = new File("/").getAbsolutePath();
     }
 

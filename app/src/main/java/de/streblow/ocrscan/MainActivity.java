@@ -14,6 +14,8 @@ import androidx.core.app.ActivityCompat;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.theartofdev.edmodo.cropper.CropImageView;
@@ -76,6 +78,35 @@ public class MainActivity extends AppCompatActivity {
                 file.delete();
             }
             RUN_ONCE = false;
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+            case R.id.action_settings:
+                return true;
+            case R.id.action_help:
+                HelpDialog help = new HelpDialog(this);
+                help.setTitle(R.string.help_title);
+                help.show();
+                return true;
+            case R.id.action_about:
+                AboutDialog about = new AboutDialog(this);
+                about.setTitle(R.string.about_title);
+                about.show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 

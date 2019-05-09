@@ -1,0 +1,8 @@
+This is a short help for the app OCRScan.<br>
+<br>
+Use your device as OCR scanner and extract editable text from images.<br>
+You can load images from your device or you can take them with the device's camera from within the app.<br>
+When you use the camera from within the app, the result is possibly rotated due to your device's general orientation. That's why you have the two rotation buttons in the upper corners of the main activity.<br>
+The three buttons at the bottom of the main activity are for loading images from the device's memory card, for activation of the camera and for the actual OCR.<br>
+The OCR process is performed on the content of the yellow marked area, which you can resize and move at your needs. If the result is not satisfying your wishes you can edit the result in an input box. Finally you can copy the content of the input box to the clipboard in order to use it anywhere else.<br>
+The app uses the OCR library of Tesseract and so called trained data (version 3.04) which are embedded in the app in German and English.

@@ -1,0 +1,6 @@
+<h2>OCRScan</h2>
+<b>Version 1.0 (Build 1)</b><br>
+&#169; 2019-05-09 Lars Streblow<br>
+<br>
+streblow.gmxhome.de<br>
+lars.streblow@gmx.de
