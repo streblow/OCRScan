@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'lars.streblow'
             keyPassword 'ABr3m9QW'
-            storeFile file('D:\\AndroidStudio\\key.jks')
+            storeFile file('/home/streblow/AndroidStudioProjects/key.jks')
             storePassword 'ABr3m9QW'
         }
     }
